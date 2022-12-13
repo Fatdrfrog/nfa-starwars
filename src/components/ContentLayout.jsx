@@ -1,13 +1,9 @@
-import { Starships } from "./Starships";
-import { Characters } from "./Characters";
-import { Planets } from "./Planets";
+import { Outlet } from "react-router-dom";
 
 export const ContentLayout = () => {
   return (
     <div className="content-layout">
-      <Planets />
-      <Characters />
-      <Starships />
+      <Outlet />
     </div>
   );
 };

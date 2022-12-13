@@ -18,7 +18,7 @@ export const Characters = () => {
   return (
     <div className="item-list-layout">
       {peoples.map((people, index) => (
-        <>
+        <div key={people.name}>
           <div>
             <p>name: {people.name}</p>
             <p>gender: {people.gender}</p>
@@ -33,7 +33,7 @@ export const Characters = () => {
               alt="planet"
             />
           </div>
-        </>
+        </div>
       ))}
     </div>
   );

@@ -18,7 +18,7 @@ export const Planets = () => {
   return (
     <div className="item-list-layout">
       {planets.map((planet, index) => (
-        <>
+        <div key={planet.name}>
           <div>
             <p>name: {planet.name}</p>
             <p>gravity: {planet.gravity}</p>
@@ -33,7 +33,7 @@ export const Planets = () => {
               alt="planet"
             />
           </div>
-        </>
+        </div>
       ))}
     </div>
   );

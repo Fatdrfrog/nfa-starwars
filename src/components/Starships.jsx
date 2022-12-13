@@ -1,5 +1,6 @@
 export const Starships = () => {
   //https://swapi.dev/api/starships
+  //https://starwars-visualguide.com/assets/img/starships/2.jpg
 
   return (
     <div className="item-list-layout">

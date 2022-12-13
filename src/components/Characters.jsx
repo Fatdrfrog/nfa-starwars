@@ -1,5 +1,7 @@
 export const Characters = () => {
   //https://swapi.dev/api/people
+  //https://starwars-visualguide.com/assets/img/people/2.jpg
+
   return (
     <div className="item-list-layout">
       <div>

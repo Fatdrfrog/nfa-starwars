@@ -11,6 +11,9 @@ export const Header = () => {
 
         <input placeholder="Search Star Wars" type="text" />
       </div>
+      <button>Planets</button>
+      <button>Starships</button>
+      <button>Characters</button>
     </header>
   );
 };
